@@ -1,0 +1,60 @@
+/* Start Global Rules */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --mainColor : #F9C449;
+  --alternateColor: #F04393;
+  --backgroundColor: #3f3d77;
+  --altBackgroundColor: #494848;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  padding: 0 10rem;
+}
+/* End Global Rules */
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: var(--backgroundColor);
+  color: #fff;
+  position: relative;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse; 
+  margin: 2rem 0 5rem;
+}
+
+th {
+  background-color: #2c2b54;
+  color: var(--mainColor);
+}
+
+th, td {
+  border: 1px solid #8a8989; 
+  padding: 8px; 
+  text-align: center; 
+}
+
+h1 {
+  margin: 5rem 0 2rem;
+  color: var(--mainColor);
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  padding: 2rem 0;
+
+}
