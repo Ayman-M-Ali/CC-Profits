@@ -1,7 +1,7 @@
 // A function to update the DOM element with the given id and price
 const currencies = [
   { type: 'BTC', number: 0.01, average: 41554.2817 },
-  { type: 'MATIC', number: 1123.40, average: 1.2249 },
+  { type: 'MATIC', number: 1323.40, average: 1.05645 },
   { type: 'DOT', number: 43.65, average: 14.4648 },
   { type: 'FTM', number: 680.70, average: 0.8584 },
   { type: 'VET', number: 902.63, average: 0.0853 },
