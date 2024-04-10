@@ -5,7 +5,7 @@ const currencies = [
   { type: 'DOT', number: 43.65, average: 14.4648 },
   { type: 'FTM', number: 680.70, average: 0.8584 },
   { type: 'VET', number: 902.63, average: 0.0853 },
-  { type: 'SOL', number: 0, average: 0 },
+  { type: 'SOL', number: 2, average: 171.23 },
   { type: 'KDA', number: 91.75, average: 5.774 },
   { type: 'DOGE', number: 3176, average: 0.1646 },
   { type: 'SHIB', number: 6388913, average: 0.000031497 },
