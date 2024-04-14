@@ -24,12 +24,12 @@ function createTableRow(currency, currentPrice) {
   const profit = currentPriceCost - previousPriceCost;
   return `<tr>
             <td>${currency.type}</td>
-            <td>${currency.number.toFixed(3)}</td>
-            <td>${currency.average.toFixed(5)}</td>
-            <td>${previousPriceCost.toFixed(3)}</td>
-            <td>${currentPrice.toFixed(6)}</td>
-            <td>${currentPriceCost.toFixed(3)}</td>
-            <td class= "profit">${profit.toFixed(3)}</td>
+            <td>${currency.number.toLocaleString()}</td>
+            <td>${Number(String(currency.average)[0]) > 0 ? currency.average.toLocaleString('en-US', { minimumFractionDigits: 2 }) : currency.average.toLocaleString('en-US', { minimumFractionDigits: 5 })}</td>
+            <td>${previousPriceCost.toLocaleString()}</td>
+            <td>${Number(String(currentPrice)[0]) > 0 ? currentPrice.toLocaleString('en-US', { minimumFractionDigits: 2 }) : currentPrice.toLocaleString('en-US', { minimumFractionDigits: 5 })}</td>
+            <td>${currentPriceCost.toLocaleString()}</td>
+            <td class= "profit">${profit.toLocaleString()}</td>
           </tr>`;
 }
 
