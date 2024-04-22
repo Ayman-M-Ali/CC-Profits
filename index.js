@@ -9,7 +9,6 @@ const currencies = [
   { type: 'KDA', number: 91.75, average: 5.774 },
   { type: 'DOGE', number: 3176, average: 0.1646 },
   { type: 'SHIB', number: 6388913, average: 0.000031497 },
-  { type: 'FLOKI', number: 660000, average: 0.00012629 },
   { type: 'SAND', number: 20, average: 4.2407 },
   { type: 'XRP', number: 147.12, average: 0.7794 },
   { type: 'ONE', number: 495, average: 0.265 },
